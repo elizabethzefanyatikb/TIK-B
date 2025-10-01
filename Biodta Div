@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Biodata</title>
+    <style>
+        body {
+            background: #fff;
+            min-height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 60px;
+        }
+        .biodata-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 80px 150px 120px;
+            gap: 0px;
+            border: 5px solid #000;
+            background: #fff;
+        }
+        .biodata-header {
+            grid-column: 1 / span 3;
+            border-bottom: 4px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .foto-profil {
+            grid-column: 1 / span 1;
+            grid-row: 2 / span 1;
+            border-right: 4px solid #000;
+            border-bottom: 4px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .foto-profil img {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            border: 2px solid #333;
+            object-fit: cover;
+        }
+        .deskripsi-singkat {
+            grid-column: 2 / span 2;
+            grid-row: 2 / span 1;
+            border-bottom: 4px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1em;
+            padding: 10px;
+        }
+        .ig {
+            grid-column: 1 / span 1;
+            grid-row: 3 / span 1;
+            border-right: 4px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hobi {
+            grid-column: 2 / span 1;
+            grid-row: 3 / span 1;
+            border-right: 4px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .games {
+            grid-column: 3 / span 1;
+            grid-row: 3 / span 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* Responsive on small screens */
+        @media (max-width: 600px) {
+            .biodata-grid {
+                width: 95vw;
+                font-size: 0.9em;
+            }
+        }
+        @media (min-width: 601px) {
+            .biodata-grid {
+                width: 500px;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="biodata-grid">
+            <div class="biodata-header">MY BIODATA</div>
+            <div class="foto-profil">
+                FOTO PROFIL<br>
+                <img src="https://drive.google.com/file/d/1r0MuKobvZOSJcebDE3AF4C6lwWF3OG2G/view?usp=drivesdk" alt="Foto Profil">
+            </div>
+            <div class="deskripsi-singkat">
+                <br>
+                <span style="font-size:0.9em; color:#333;">
+                Hello! Nama saya Elizabeth zefanya VIrginia Sally, biasa di panggil Anya. Saya lahir pada 19 Oktober 2007. Saya berusia 17 tahun dan saya sekarang menduduki kelas 12 di SMAK. Santo Stanislaus
+                </span>
+            </div>
+            <div class="ig">
+                <br>
+                <span style="font-size:0.9em;">
+                @e.anya.v.s on Instragram
+                </span>
+            </div>
+            <div class="hobi">
+                <br>
+                <span style="font-size:0.9em;">
+                Hobby saya adalah menyanyi, mendengarkan musik dan memasak
+                </span>
+            </div>
+            <div class="games">
+                <br>
+                <span style="font-size:0.9em;">
+                Game Favorite saya adalah roblox dan minecraft
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
