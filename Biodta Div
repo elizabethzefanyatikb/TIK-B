@@ -4,7 +4,7 @@
     <title>My Biodata</title>
     <style>
         body {
-            background: #fff;
+            background: #facee0;
             min-height: 100vh;
         }
         .container {
@@ -101,12 +101,12 @@
             <div class="biodata-header">MY BIODATA</div>
             <div class="foto-profil">
                 FOTO PROFIL<br>
-                <img src="https://drive.google.com/file/d/1r0MuKobvZOSJcebDE3AF4C6lwWF3OG2G/view?usp=drivesdk" alt="Foto Profil">
+                <img src="https://raw.githubusercontent.com/elizabethzefanyatikb/TIK-B/refs/heads/main/IMG_20251001_085938.jpg" alt="Foto Profil">
             </div>
             <div class="deskripsi-singkat">
                 <br>
                 <span style="font-size:0.9em; color:#333;">
-                Hello! Nama saya Elizabeth zefanya VIrginia Sally, biasa di panggil Anya. Saya lahir pada 19 Oktober 2007. Saya berusia 17 tahun dan saya sekarang menduduki kelas 12 di SMAK. Santo Stanislaus
+                Hello! Nama saya Elizabeth Zefanya Virginia Sally, biasa di panggil Anya. Saya lahir pada 19 Oktober 2007. Saya berusia 17 tahun dan saya sekarang menduduki kelas 12 di SMAK. Santo Stanislaus
                 </span>
             </div>
             <div class="ig">
